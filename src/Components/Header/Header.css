@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+
+.header {
+  display: flex;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2ea;
+  height: 75px;
+  justify-content: space-between;
+}
+.header_div1 {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header_div2 {
+  display: flex;
+  align-items: center;
+  width: 185px;
+  justify-content: space-between;
+  margin-right: 12px;
+}
+.logo {
+  background: #e2e2ea;
+  height: 36.5px;
+  width: 36.5px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+.header_circle {
+  height: 36.5px;
+  width: 36.5px;
+  background: #92929d;
+  border-radius: 50%;
+}
+.header_h3 {
+  font-size: 24px;
+  font-family: "Mulish", sans-serif;
+}
+.header_h4 {
+  margin: 0px 0px;
+}
+.header_p {
+  margin: 0px 0px;
+  font-size: 2vh;
+  color: #92929d;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  border-right: 1px solid #e2e2ea;
+  height: 150vh;
+  width: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  justify-content: space-evenly;
+}
+.sidebar_setting_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar_setting_icon {
+  margin-bottom: 12vh;
+  cursor: pointer;
+  padding: 15px 15px;
+}
+.icons
+{
+    cursor: pointer;
+    padding: 15px 15px;
+    fill: #ffffff;
+}
+.icon {
+  background-color: #5541d7;
+  padding: 15px 15px;
+  border-radius: 8px;
+  fill: #ffffff;
+  cursor: pointer;
+}
