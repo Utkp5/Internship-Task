@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+.drinks_main
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card
+{
+    border: 1px solid #e2e2ea;
+    height: 250px;
+    width: 380px;
+    border-radius: 8px;
+}
+.card_img
+{
+    border: 2px solid #e2e2ea;
+    background-color: #e2e2ea;
+    height: 150px;
+    margin: 6px 7px;
+    border-radius: 8px;
+}
+.drinks_h3
+{
+    font-family: "Mulish", sans-serif;
+    margin-left: 20px;
+    font-size: x-large;
+}
+.drinks_info
+{
+    margin-left: 22px;
+}
+.drinks_info_p1
+{
+    margin: 15px 0px;
+    font-size: 2.5vh;
+    font-weight: 800;
+}
+.drinks_info_p2
+{
+    margin: 0px 0px;
+    font-size: 2.5vh;
+    font-weight: 700;
+    color: #42BDA1;
+}

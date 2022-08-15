@@ -2,11 +2,9 @@
 .container
 {
     background-color: #FFFFFF;
-    /* background-color: cadetblue;; */
     position: absolute;
     top: 110px;
-    border: 2px solid red;
-    height: 135vh;
+    height: 200vh;
     width: 95vw;
     left: 135px;
     border-radius : 10px;
@@ -44,7 +42,7 @@ input[type="search"] {
 .selection_item
 {
     font-size: 2.5vh;
-    padding: 0px 108.5px;
+    padding: 0px 107.5px;
 }
 .item
 {
@@ -55,4 +53,5 @@ input[type="search"] {
 .item1
 {
     border-bottom: 5px solid #e2e2e2;
+    font-weight: 700;
 }

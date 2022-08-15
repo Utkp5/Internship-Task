@@ -3,6 +3,8 @@ import "./Grid.css";
 import Header from "../../Components/Header/Header";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import search from "../../Assets/Icons/SEARCH.svg";
+import Food from '../../Components/Food/Food'
+import Drinks from '../../Components/Drinks/Drinks'
 
 function Grid() {
   return (
@@ -22,7 +24,10 @@ function Grid() {
           <div className="selection_item item1">Snack</div>
           <div className="selection_item item1">Packages</div>
         </div>
+        <Food />
+        <Drinks />
       </div>
+
     </div>
   );
 }
