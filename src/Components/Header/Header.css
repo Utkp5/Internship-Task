@@ -5,6 +5,7 @@
   background-color: #ffffff;
   border-bottom: 1px solid #e2e2ea;
   height: 75px;
+  width: 105vw;
   justify-content: space-between;
 }
 .header_div1 {
@@ -17,7 +18,7 @@
   align-items: center;
   width: 185px;
   justify-content: space-between;
-  margin-right: 12px;
+  margin-right: 100px;
 }
 .logo {
   background: #e2e2ea;
@@ -45,42 +46,3 @@
   color: #92929d;
 }
 
-.sidebar {
-  background-color: #ffffff;
-  border-right: 1px solid #e2e2ea;
-  height: 150vh;
-  width: 105px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.sidebar_icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 80vh;
-  justify-content: space-evenly;
-}
-.sidebar_setting_div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sidebar_setting_icon {
-  margin-bottom: 12vh;
-  cursor: pointer;
-  padding: 15px 15px;
-}
-.icons
-{
-    cursor: pointer;
-    padding: 15px 15px;
-    fill: #ffffff;
-}
-.icon {
-  background-color: #5541d7;
-  padding: 15px 15px;
-  border-radius: 8px;
-  fill: #ffffff;
-  cursor: pointer;
-}
