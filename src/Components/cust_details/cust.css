@@ -1,0 +1,60 @@
+.table_details
+{
+    margin: 30px 30px;
+    width: 77rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+}
+.purched_items
+{
+    width: 286px;
+}
+.id
+{
+    margin: 0px 2px;
+}
+.pto
+{
+        /* border: 2px solid; */
+        padding: 1vh 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2vw;
+}
+.namee
+{
+        /* border: 2px solid; */
+        width: 12vw;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10px;
+}
+.jdate
+{
+    width: 12vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -60px;
+}
+.visits
+{
+    width: 2vw;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+.pur
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 20vw;
+}
+.spd
+{
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+}

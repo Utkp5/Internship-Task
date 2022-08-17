@@ -42,3 +42,15 @@
     border: none;
     border-radius: 6px;
 }
+.table_heading
+{
+    margin: 15px 25px;
+    width: 77rem;
+    background-color: #F7F7FC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+
+}
