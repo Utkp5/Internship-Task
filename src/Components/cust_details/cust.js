@@ -114,6 +114,7 @@ function Cust() {
             </div>
             <div className="pur">
               <p className="purched_items">{detail.Purchased_Items}</p>
+              <p className="purched_items_p">Sea Detail</p>
             </div>
             <div className="spd">
               <p>{detail.Total_Spend}</p>

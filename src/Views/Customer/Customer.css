@@ -4,7 +4,7 @@
     background-color: #FFFFFF;
     position: absolute;
     top: 180px;
-    height: 200vh;
+    height: 204vh;
     width: 95vw;
     left: 135px;
     border-radius : 10px;
@@ -47,6 +47,7 @@
     margin: 15px 25px;
     width: 77rem;
     background-color: #F7F7FC;
+    color: #11142D;
     display: flex;
     justify-content: space-around;
     align-items: center;

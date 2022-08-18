@@ -1,15 +1,19 @@
 .table_details
 {
-    margin: 30px 30px;
+    margin: -35px 30px;
     width: 77rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: "Mulish", sans-serif;
+    color: #11142D;
+    font-weight: 600;
 }
 .purched_items
 {
     width: 286px;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 .id
 {
@@ -51,6 +55,12 @@
     display: flex;
     justify-content: flex-start;
     width: 20vw;
+    flex-direction: column;
+}
+.purched_items_p
+{
+    color: #5541D7;
+    font-weight: 700;
 }
 .spd
 {
